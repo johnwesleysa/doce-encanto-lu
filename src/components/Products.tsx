@@ -6,25 +6,25 @@ const products = [
     name: "Cupcakes",
     description: "Delicados cupcakes em diversos sabores",
     price: "a partir de R$ 12",
-    image: "/cupcake.jpg"
+    image: "image/cupcake.jpg"
   },
   {
     name: "Brownies",
     description: "Brownie tradicional ou recheado",
     price: "a partir de R$ 15",
-    image: "/brownie.jpg"
+    image: "image/brownie.jpg"
   },
   {
     name: "Torta de Limão",
     description: "Nossa especialidade mais pedida",
     price: "R$ 120",
-    image: "/lime-pie.jpg"
+    image: "image/lime-pie.jpg"
   },
   {
     name: "Bolos Decorados",
     description: "Bolos personalizados para ocasiões especiais",
     price: "sob consulta",
-    image: "/cake.jpg"
+    image: "image/cake.jpg"
   }
 ];
 

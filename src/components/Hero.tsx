@@ -4,7 +4,7 @@ import { MessageSquare } from "lucide-react";
 
 export const Hero = () => {
   return (
-    <section className="hero-section min-h-[80vh] flex items-center justify-center text-center px-4">
+    <section className="min-h-screen hero-section min-h-[80vh] flex items-center justify-center text-center px-4">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 text-[#c49a6c]">
           Delícias da Lu

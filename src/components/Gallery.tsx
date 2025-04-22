@@ -7,11 +7,11 @@ export const Gallery = () => {
           Galeria
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-          {[1, 2, 3, 4, 5, 6].map((i) => (
+          {['galeria1.jpg', 'galeria2.jpg', 'galeria3.jpg', 'galeria4.jpg', 'galeria5.jpg', 'galeria6.jpg'].map((img, i) => (
             <div key={i} className="aspect-square overflow-hidden rounded-lg">
               <img
-                src={`/gallery-${i}.jpg`}
-                alt={`Delícias da Lu - Imagem ${i}`}
+                src={`/image/${img}`}
+                alt={`Delícias da Lu - Imagem ${i + 1}`}
                 className="w-full h-full object-cover transition-transform hover:scale-105"
               />
             </div>
