@@ -1,7 +1,7 @@
 
 export const Gallery = () => {
   return (
-    <section className="py-20 px-4">
+    <section id="galeria" className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-[#c49a6c]">
           Galeria
@@ -21,3 +21,4 @@ export const Gallery = () => {
     </section>
   );
 };
+

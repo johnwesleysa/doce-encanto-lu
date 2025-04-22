@@ -18,7 +18,7 @@ const testimonials = [
 
 export const Testimonials = () => {
   return (
-    <section className="py-20 px-4 bg-[#fceae8]">
+    <section id="depoimentos" className="py-20 px-4 bg-[#fceae8]">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-[#c49a6c]">
           Depoimentos
