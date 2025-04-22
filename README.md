@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
+# 🎂 Delícias da Lu
 
-## Project info
+Site institucional e responsivo para uma confeitaria artesanal fictícia, desenvolvido com foco em estética, leveza e conversão.
 
-**URL**: https://lovable.dev/projects/a38aac80-833e-41f4-b027-6fc0b95f2a88
+## ✨ Visão Geral
 
-## How can I edit this code?
+**“Delícias da Lu”** é um projeto voltado para microempreendedoras do ramo alimentício, especialmente confeiteiras, com o objetivo de apresentar produtos de forma encantadora e facilitar o contato via WhatsApp e Instagram.
 
-There are several ways of editing your application.
+O projeto foi desenvolvido com **React + Vite**, utilizando **Tailwind CSS** e componentes UI do `shadcn/ui`.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a38aac80-833e-41f4-b027-6fc0b95f2a88) and start prompting.
+👉 **Acesse o site em produção:**  
+🔗 [https://doce-encanto-lu.vercel.app](https://doce-encanto-lu.vercel.app)
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 Tecnologias Utilizadas
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Vercel](https://vercel.com/) (Deploy)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🧱 Estrutura de Seções
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Hero Section** com imagem grande, slogan e botão de WhatsApp  
+- **Sobre a Lu** com imagem e texto lado a lado  
+- **Nossos Doces** com grid de produtos ilustrativos  
+- **Depoimentos** de clientes satisfeitos  
+- **Galeria** com fotos de doces artesanais  
+- **Rodapé** com Instagram, WhatsApp e informações de contato
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🧁 Como Rodar Localmente
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/delicias-da-lu.git
+
+# Acesse a pasta
+cd delicias-da-lu
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor local
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a38aac80-833e-41f4-b027-6fc0b95f2a88) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
