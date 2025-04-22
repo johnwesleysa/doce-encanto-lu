@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { WhatsApp } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -16,7 +16,7 @@ export const Hero = () => {
           className="bg-[#c49a6c] hover:bg-[#ab805a] text-white px-8 py-6 rounded-full text-lg"
           onClick={() => window.open('https://wa.me/5511999999999', '_blank')}
         >
-          <WhatsApp className="mr-2 h-5 w-5" />
+          <MessageSquare className="mr-2 h-5 w-5" />
           Fazer Encomenda via WhatsApp
         </Button>
       </div>

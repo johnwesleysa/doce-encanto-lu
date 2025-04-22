@@ -1,5 +1,5 @@
 
-import { Instagram, WhatsApp, MapPin } from "lucide-react";
+import { Instagram, MessageSquare, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Footer = () => {
@@ -34,7 +34,7 @@ export const Footer = () => {
               className="bg-[#25D366] hover:bg-[#128C7E] text-white rounded-full"
               onClick={() => window.open('https://wa.me/5511999999999', '_blank')}
             >
-              <WhatsApp className="mr-2" />
+              <MessageSquare className="mr-2" />
               Fazer Encomenda
             </Button>
           </div>
